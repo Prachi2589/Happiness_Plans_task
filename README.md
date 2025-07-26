@@ -1,54 +1,36 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/pixology)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/pixology?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/pixology?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/olASpEtIwRY?style=social)](https://youtu.be/olASpEtIwRY)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/happiness-plans)
+  ![GitHub stars](https://img.shields.io/github/stars/your-username/happiness-plans?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/your-username/happiness-plans?style=social)
 
   <br />
   <br />
 
-  <h2 align="center">Pixology - Digital Agency Website</h2>
+  <h2 align="center">Happiness Plans - Responsive Web Project</h2>
 
-  Pixology is a fully responsive digital agency website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Happiness Plans is a fully responsive website project, built using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/pixology/"><strong>➥ Live Demo</strong></a>
+  <a href="https://your-username.github.io/happiness-plans/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
 <br />
 
-### Demo Screeshots
+### 🖥️ Demo Screenshot
 
-![Pixology Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Happiness Plans Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
-### Prerequisites
+---
 
-Before you begin, ensure you have met the following requirements:
+### 🛠️ Prerequisites
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+Before you begin, ensure you have:
 
-### Run Locally
+* [Git](https://git-scm.com/downloads) installed.
 
-To run **Pixology** locally, run this command on your git bash:
-
-Linux and macOS:
+### 🚀 Run Locally
 
 ```bash
-sudo git clone https://github.com/codewithsadee/pixology.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/pixology.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.
+git clone https://github.com/your-username/happiness-plans.git
+cd happiness-plans
