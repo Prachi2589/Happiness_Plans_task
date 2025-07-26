@@ -1,11 +1,3 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/your-username/happiness-plans)
-  ![GitHub stars](https://img.shields.io/github/stars/your-username/happiness-plans?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/your-username/happiness-plans?style=social)
-
-  <br />
-  <br />
 
   <h2 align="center">Happiness Plans - Responsive Web Project</h2>
 
@@ -19,7 +11,8 @@
 
 ### 🖥️ Demo Screenshot
 
-![Happiness Plans Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![Happiness Plans Desktop Demo](<img width="1887" height="951" alt="image" src="https://github.com/user-attachments/assets/49b12d4d-74b0-4069-ba7d-43744d234024" />
+)
 
 ---
 
