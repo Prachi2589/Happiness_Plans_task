@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happiness Plans</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <!-- Ionicons CDN -->
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Happiness Plans</a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">Pixology</a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#destinations" class="navbar-link" data-nav-link>Destinations</a>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="btn btn-primary has-before has-after">Let’s Talk 👋</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">
+             Discover Joyful <span class="has-before">Journeys</span> with Us
+            </h1>
+
+            <p class="hero-text">
+                At Happiness Plans, we craft personalized travel experiences that bring you closer to nature, culture, and unforgettable memories. Whether it's a weekend getaway, an exotic international tour, or a curated staycation — we’ve got you covered!
+            </p>
+
+            <div class="wrapper">
+              <a href="#" class="btn btn-primary has-before has-after">How It Works</a>
+
+              <button class="hero-btn" aria-label="pixology promo">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Behind the scenes</span>
+              </button>
+            </div>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                  <ion-icon name="logo-facebook"></ion-icon>
+
+                  <span class="span">Facebook</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(0, 100%, 50%);">
+                  <ion-icon name="logo-youtube"></ion-icon>
+
+                  <span class="span">Youtube</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(203, 89%, 53%);">
+                  <ion-icon name="logo-twitter"></ion-icon>
+
+                  <span class="span">Twitter</span>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+<section class="section service" id="service" aria-label="service">
+  <div class="container">
+
+    <p class="section-subtitle has-before text-center">Our Services</p>
+
+    <h2 class="h2 section-title text-center">
+      Designing your travel dreams with our <span class="has-before">exclusive services</span>
+    </h2>
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="service-card" style="--color: 174, 77%, 50%">
+          <div class="card-icon">
+            <ion-icon name="map-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Customized Travel Itineraries</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 267, 76%, 57%">
+          <div class="card-icon">
+            <ion-icon name="business-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Weekend Getaways & Staycations</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 17, 100%, 68%">
+          <div class="card-icon">
+            <ion-icon name="earth-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">International Tour Packages</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 343, 98%, 60%">
+          <div class="card-icon">
+            <ion-icon name="document-text-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Visa Assistance & Bookings</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 210, 100%, 53%">
+          <div class="card-icon">
+            <ion-icon name="heart-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Honeymoon & Family Tours</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 157, 89%, 44%">
+          <div class="card-icon">
+            <ion-icon name="people-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Corporate & Group Travel</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <div class="service-card" style="--color: 52, 98%, 50%">
+          <div class="card-icon">
+            <ion-icon name="leaf-outline"></ion-icon>
+          </div>
+          <h3 class="h3"><a href="#" class="card-title">Wellness & Retreat Packages</a></h3>
+        </div>
+      </li>
+
+      <li>
+        <a href="#" class="link-card" style="--color: 203, 97%, 75%">
+          <span class="span">More Travel Services</span>
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+ <section class="section destination" id="destinations">
+  <div class="container">
+
+    <p class="section-subtitle">Popular Destination</p>
+    <h2 class="h2 section-title">Choose Your Next Destination</h2>
+
+    <ul class="destination-list">
+
+      <li>
+        <div class="destination-card">
+          <figure class="card-banner">
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80" alt="Paris" class="destination-img">
+          </figure>
+          <div class="card-content">
+            <h3 class="h3 card-title">Paris</h3>
+            <p>City of lights and love, rich in history and romance.</p>
+          </div>
+        </div>
+      </li>
+
+    
+
+      <li>
+        <div class="destination-card">
+          <figure class="card-banner">
+            <img src="https://images.unsplash.com/photo-1549887534-316b5d6d5176?auto=format&fit=crop&w=800&q=80" alt="Bali" class="destination-img">
+          </figure>
+          <div class="card-content">
+            <h3 class="h3 card-title">Bali</h3>
+            <p>Island paradise with beaches, temples & culture.</p>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="section contact" id="contact" aria-label="contact">
+  <div class="container">
+
+    <p class="section-subtitle text-center has-before">Get in Touch</p>
+
+    <h2 class="h2 section-title text-center">
+      Contact <span class="has-before">Happiness Plans</span>
+    </h2>
+
+    <form action="#" method="POST" class="contact-form">
+      <div class="input-wrapper">
+        <input type="text" name="name" placeholder="Your Name" required class="input-field">
+        <input type="email" name="email" placeholder="Your Email" required class="input-field">
+      </div>
+
+      <textarea name="message" rows="6" placeholder="Your Message" required class="input-field textarea-field"></textarea>
+
+      <button type="submit" class="btn btn-primary has-before has-after">Send Message</button>
+    </form>
+
+    <div class="contact-info text-center">
+      <p>Email: <a href="mailto:connect@happinessplans.com">connect@happinessplans.com</a></p>
+      <p>Website: <a href="https://www.happinessplans.com" target="_blank">www.happinessplans.com</a></p>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+  <footer class="footer">
+  <div class="container">
+
+    <div class="footer-top section">
+
+      <div class="footer-brand">
+
+        <p class="footer-list-title">About Happiness Plans</p>
+
+        <p class="footer-text">
+          Happiness Plans is your holistic partner in emotional wellness, offering personalized happiness programs,
+          consultations, and workshops for individuals, corporates, and institutions.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/company/happiness-plans" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/happinessplans" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title">Useful Links</p>
+        </li>
+
+        <li><a href="#contact" class="footer-link">Contact Us</a></li>
+        <li><a href="#services" class="footer-link">Our Services</a></li>
+        <li><a href="#about" class="footer-link">About Us</a></li>
+        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+        <li><a href="#" class="footer-link">Terms of Use</a></li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="footer-list-title">Programs</p>
+        </li>
+
+        <li><a href="#" class="footer-link">Wellness Plans</a></li>
+        <li><a href="#" class="footer-link">Therapy & Counseling</a></li>
+        <li><a href="#" class="footer-link">Mindfulness Workshops</a></li>
+        <li><a href="#" class="footer-link">Corporate Wellness</a></li>
+        <li><a href="#" class="footer-link">Mental Health for Schools</a></li>
+
+      </ul>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2025 Happiness Plans. All Rights Reserved.
+      </p>
+
+      <ul class="footer-bottom-list">
+        <li><a href="#" class="footer-bottom-link">Terms & Conditions</a></li>
+        <li><a href="#" class="footer-bottom-link">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
