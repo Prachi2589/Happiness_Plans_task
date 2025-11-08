@@ -4,7 +4,7 @@
 
 ## 🧠 Project Overview
 
-**Happiness Plans** is a clean, responsive landing page built to reflect the brand’s focus on mental wellness and self-care services. It features sections like a hero banner, benefits, customer testimonials, and a contact area — all aimed at delivering a professional and calming user experience.
+**Happiness Plans** is a clean , responsive landing page built to reflect the brand’s focus on mental wellness and self-care services. It features sections like a hero banner, benefits, customer testimonials, and a contact area — all aimed at delivering a professional and calming user experience.
 
 ## 🔧 Technologies Used
 
