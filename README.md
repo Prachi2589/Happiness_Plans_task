@@ -7,7 +7,6 @@
 **Happiness Plans** is a clean , responsive landing page built to reflect the brand’s focus on mental wellness and self-care services. It features sections like a hero banner, benefits, customer testimonials, and a contact area — all aimed at delivering a professional and calming user experience.
 
 ## 🔧 Technologies Used
-
 - **HTML5** – Structure of the webpage.
 - **CSS3** – Styling with a focus on responsiveness and modern UI.
 - **JavaScript (Vanilla)** – For interactivity (if used).
